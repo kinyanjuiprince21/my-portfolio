@@ -1,27 +1,5 @@
-//
-// function Nav() {
-//
-//     return (
-//         <nav style={{backgroundColor: 'rgb(17, 17, 17)'}} className="top-nav">
-//             <div className="logo">
-//                 <h1>david</h1>
-//             </div>
-//             <ul className="nav-links">
-//                 <a href="#home"><li>Home</li></a>
-//                 <a href="#services"><li>Services</li></a>
-//                 <a href="projects"><li>Projects</li></a>
-//             </ul>
-//             <a href="#hire-now" className="hire-button">
-//                 <button>Hire Me</button>
-//             </a>
-//         </nav>
-//     );
-// }
-//
-// export default Nav;
 
 import React, { useEffect, useRef } from "react";
-import { Link } from 'react-router-dom'
 
 function Nav(){
 

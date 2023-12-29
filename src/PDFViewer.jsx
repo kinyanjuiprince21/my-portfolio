@@ -8,7 +8,7 @@ export default function PDFViewer(props) {
     useEffect(() => {
         console.log('PDFViewer useEffect called');
         backend.current.init(props.src, viewerRef.current)
-    }, [])
+    }, [props.src])
 
     return (
         <div ref={viewerRef} id='viewer' style={{ width: '100vw', height: '100vh', padding: '0', margin: '0', boxSizing: 'border-box' }}>

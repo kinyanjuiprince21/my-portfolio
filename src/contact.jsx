@@ -113,7 +113,7 @@ function Book(){
                     <a href="https://www.linkedin.com/in/david-kinyanjui-44a870233?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" rel="noreferrer" target="_blank">
                         <img src={LinkedIn} alt="" />
                     </a>
-                    <a href="" target="_blank" rel="noreferrer">
+                    <a href="/" target="_blank" rel="noreferrer">
                         <img src={Instagram} alt="" />
                     </a>
 

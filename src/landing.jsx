@@ -1,6 +1,4 @@
-import {Link} from "react-router-dom";
-import Nav from "./nav";
-import {useEffect, useRef} from "react";
+import {useRef} from "react";
 import Value from "./value";
 
 function LandingPage() {
@@ -41,8 +39,8 @@ function Landing() {
                     configuration and deployment of software products for both large and small scale enterprises.
                 </div>
                 <div className="buttons">
-                    <a href={`/resume`} target="_blank">view resume</a>
-                    <a href="#book-now1">contact now</a>
+                    <a href={`/resume`} target="_blank" rel="noreferrer">view resume</a>
+                    <a href="#book-now1" rel="noreferrer">contact now</a>
                 </div>
             </div>
 
