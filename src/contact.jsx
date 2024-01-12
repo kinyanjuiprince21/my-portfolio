@@ -1,4 +1,4 @@
-import React, {useRef} from "react";
+import React, {useRef, useState} from "react";
 import emailjs from 'emailjs-com';
 import swal from 'sweetalert2';
 
@@ -23,20 +23,13 @@ function Book(){
     const templateId = 'template_0894n1p'
     const userId = "TwwaTtvgHlr30ezwU"
     const form = useRef(null);
+    const [isLoading, setIsLoading] = useState(false);
 
     const handleFormSubmit = (e) => {
         e.preventDefault();
+        setIsLoading(true);
 
-        // Get form data using FormData
-        const formData = new FormData(form.current);
-
-        // Convert form data to an object
-        const data = {};
-        formData.forEach((value, key) => {
-            data[key] = value;
-        });
-
-        emailjs.sendForm(serviceId, templateId, data, userId)
+        emailjs.sendForm(serviceId, templateId, form.current, userId)
             .then((result) => {
                 console.log(result.text);
                 swal.fire(
@@ -51,8 +44,10 @@ function Book(){
                     error.text,
                     'error'
                 )
-            });
-        e.target.reset();
+            }).finally(() => {
+                setIsLoading(false);
+                e.target.reset();
+        });
     }
 
 
@@ -74,7 +69,7 @@ function Book(){
                     <div className="top">
                         <div className="input">
                             <label htmlFor="fullname">Full Name</label>
-                            <input type="text" name="user_name" id="user_name" placeholder="Enter full name"/>
+                            <input type="text" name="from_name" placeholder="Enter full name"/>
                         </div>
                         <div className="input">
                             <label htmlFor="email">Email</label>
@@ -83,9 +78,9 @@ function Book(){
                     </div>
                     <div className="input">
                         <label htmlFor="message">Message</label>
-                        <textarea name="user_message" id="user_message" cols="30" rows="10" placeholder="Write a message for me."></textarea>
+                        <textarea name="message" cols="30" rows="10" placeholder="Write a message for me."></textarea>
                     </div>
-                    <input type="submit" value="SEND MESSAGE" />
+                    <input type="submit" value={isLoading ? 'SENDING...' : 'SEND MESSAGE'} disabled={isLoading} />
                 </form>
             </div>
             <div className="right">
