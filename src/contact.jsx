@@ -35,7 +35,16 @@ function Book(){
     const handleFormSubmit = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm(serviceId, templateId, templateParams, userId)
+        // Get form data using FormData
+        const formData = new FormData(form.current);
+
+        // Convert form data to an object
+        const data = {};
+        formData.forEach((value, key) => {
+            data[key] = value;
+        });
+
+        emailjs.sendForm(serviceId, templateId, data, userId)
             .then((result) => {
                 console.log(result.text);
                 swal.fire(
