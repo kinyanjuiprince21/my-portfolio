@@ -60,7 +60,7 @@ function ProjectsSummary() {
             </div>
 
             <div className="services-list">
-                <div className="service">
+                <div className="service" title="Click on the image">
                     <a href="https://github.com/kinyanjuiprince21/simple-shop_project" target="_blank" rel="noreferrer" title="Click on the image">
                         <img src={Shop} alt="" />
                     </a>
@@ -68,7 +68,7 @@ function ProjectsSummary() {
                         Shop <br/>App
                     </div>
                 </div>
-                <div className="service">
+                <div className="service" title="Click on the image">
                     <a href="https://github.com/kinyanjuiprince21/Library" target="_blank" rel="noreferrer" title="Click on the image">
                         <img src={Library} alt="" />
                     </a>
@@ -76,7 +76,7 @@ function ProjectsSummary() {
                         Library <br/>system
                     </div>
                 </div>
-                <div className="service">
+                <div className="service" title="Click on the image">
                     <a href="https://github.com/kinyanjuiprince21/mytar" target="_blank" rel="noreferrer" title="Click on the image">
                         <img src={Zip} alt="" />
                     </a>
@@ -84,7 +84,7 @@ function ProjectsSummary() {
                         Tarball <br/>Implementation
                     </div>
                 </div>
-                <div className="service">
+                <div className="service" title="Click on the image">
                     <a href="https://github.com/kinyanjuiprince21/payroll_backend" target="_blank" rel="noreferrer" title="Click on the image">
                         <img src={Payroll} alt="" />
                     </a>
@@ -94,7 +94,7 @@ function ProjectsSummary() {
                 </div>
             </div>
             <div className="services-list">
-                <div className="service">
+                <div className="service" title="Click on the image">
                     <a href="https://github.com/kinyanjuiprince21/inventorySystem" target="_blank" rel="noreferrer" title="Click on the image">
                         <img src={Inventory} alt="" />
                     </a>
@@ -102,7 +102,7 @@ function ProjectsSummary() {
                         Inventory<br/> App
                     </div>
                 </div>
-                <div className="service">
+                <div className="service" title="Click on the image">
                     <a href="https://github.com/kinyanjuiprince21/covid-awareness-website" target="_blank" rel="noreferrer" title="Click on the image">
                         <img src={Covid} alt="" />
                     </a>
@@ -110,7 +110,7 @@ function ProjectsSummary() {
                         Covid <br/>App
                     </div>
                 </div>
-                <div className="service">
+                <div className="service" title="Click on the image">
                     <a href="https://github.com/kinyanjuiprince21/gesture_control" target="_blank" rel="noreferrer" title="Click on the image">
                         <img src={Gesture} alt="" />
                     </a>
@@ -118,7 +118,7 @@ function ProjectsSummary() {
                         Gesture <br/>Control
                     </div>
                 </div>
-                <div className="service">
+                <div className="service" title="Click on the image">
                     <a href="https://github.com/kinyanjuiprince21/massage-website" target="_blank" rel="noreferrer" title="Click on the image">
                         <img src={Portfolio} alt="" />
                     </a>
