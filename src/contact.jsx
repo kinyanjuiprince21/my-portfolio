@@ -23,15 +23,7 @@ function Book(){
     const templateId = 'template_0894n1p'
     const userId = "TwwaTtvgHlr30ezwU"
     const form = useRef(null);
-    const userName = useRef(null);
-    const userEmail = useRef(null);
-    const userMessage = useRef(null);
 
-    const templateParams = {
-        name: userName,
-        email: userEmail,
-        message: userMessage,
-    }
     const handleFormSubmit = (e) => {
         e.preventDefault();
 
@@ -82,16 +74,16 @@ function Book(){
                     <div className="top">
                         <div className="input">
                             <label htmlFor="fullname">Full Name</label>
-                            <input type="text" name="user_name" id="user_name" placeholder="Enter full name" ref={userName}/>
+                            <input type="text" name="user_name" id="user_name" placeholder="Enter full name"/>
                         </div>
                         <div className="input">
                             <label htmlFor="email">Email</label>
-                            <input type="email" name="user_email" id="user_email" placeholder="Enter your email" ref={userEmail}/>
+                            <input type="email" name="user_email" id="user_email" placeholder="Enter your email"/>
                         </div>
                     </div>
                     <div className="input">
                         <label htmlFor="message">Message</label>
-                        <textarea name="user_message" id="user_message" cols="30" rows="10" placeholder="Write a message for me." ref={userMessage}></textarea>
+                        <textarea name="user_message" id="user_message" cols="30" rows="10" placeholder="Write a message for me."></textarea>
                     </div>
                     <input type="submit" value="SEND MESSAGE" />
                 </form>
