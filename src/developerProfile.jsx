@@ -4,7 +4,7 @@ import Zip from './resource/zip.png'
 import Inventory from './resource/product-design.png'
 import Gesture from './resource/gesture-control.png'
 import Covid from './resource/coronavirus.png'
-import Payroll from './resource/salary.png'
+import Saving from './resource/saving.png'
 import Shop from './resource/online-shop.png'
 import Library from './resource/learning.png'
 import Portfolio from './resource/portfolio.png'
@@ -85,11 +85,11 @@ function ProjectsSummary() {
                     </div>
                 </div>
                 <div className="service" title="Click on the image">
-                    <a href="https://github.com/kinyanjuiprince21/payroll_backend" target="_blank" rel="noreferrer" title="Click on the image">
-                        <img src={Payroll} alt="" />
+                    <a href="https://github.com/kinyanjuiprince21/saving_management.git" target="_blank" rel="noreferrer" title="Click on the image">
+                        <img src={Saving} alt="" />
                     </a>
                     <div className="name">
-                        Payroll <br/>backend
+                        Savings <br/>Management backend
                     </div>
                 </div>
             </div>
