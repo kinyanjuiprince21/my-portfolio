@@ -61,7 +61,7 @@ function ProjectsSummary() {
 
             <div className="services-list">
                 <div className="service">
-                    <a href="https://github.com/kinyanjuiprince21/simple-shop_project" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/kinyanjuiprince21/simple-shop_project" target="_blank" rel="noreferrer" title="Click on the image">
                         <img src={Shop} alt="" />
                     </a>
                     <div className="name">
@@ -69,7 +69,7 @@ function ProjectsSummary() {
                     </div>
                 </div>
                 <div className="service">
-                    <a href="https://github.com/kinyanjuiprince21/Library" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/kinyanjuiprince21/Library" target="_blank" rel="noreferrer" title="Click on the image">
                         <img src={Library} alt="" />
                     </a>
                     <div className="name">
@@ -77,7 +77,7 @@ function ProjectsSummary() {
                     </div>
                 </div>
                 <div className="service">
-                    <a href="https://github.com/kinyanjuiprince21/mytar" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/kinyanjuiprince21/mytar" target="_blank" rel="noreferrer" title="Click on the image">
                         <img src={Zip} alt="" />
                     </a>
                     <div className="name">
@@ -85,7 +85,7 @@ function ProjectsSummary() {
                     </div>
                 </div>
                 <div className="service">
-                    <a href="https://github.com/kinyanjuiprince21/payroll_backend" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/kinyanjuiprince21/payroll_backend" target="_blank" rel="noreferrer" title="Click on the image">
                         <img src={Payroll} alt="" />
                     </a>
                     <div className="name">
@@ -95,7 +95,7 @@ function ProjectsSummary() {
             </div>
             <div className="services-list">
                 <div className="service">
-                    <a href="https://github.com/kinyanjuiprince21/inventorySystem" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/kinyanjuiprince21/inventorySystem" target="_blank" rel="noreferrer" title="Click on the image">
                         <img src={Inventory} alt="" />
                     </a>
                     <div className="name">
@@ -103,7 +103,7 @@ function ProjectsSummary() {
                     </div>
                 </div>
                 <div className="service">
-                    <a href="https://github.com/kinyanjuiprince21/covid-awareness-website" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/kinyanjuiprince21/covid-awareness-website" target="_blank" rel="noreferrer" title="Click on the image">
                         <img src={Covid} alt="" />
                     </a>
                     <div className="name">
@@ -111,7 +111,7 @@ function ProjectsSummary() {
                     </div>
                 </div>
                 <div className="service">
-                    <a href="https://github.com/kinyanjuiprince21/gesture_control" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/kinyanjuiprince21/gesture_control" target="_blank" rel="noreferrer" title="Click on the image">
                         <img src={Gesture} alt="" />
                     </a>
                     <div className="name">
@@ -119,7 +119,7 @@ function ProjectsSummary() {
                     </div>
                 </div>
                 <div className="service">
-                    <a href="https://github.com/kinyanjuiprince21/massage-website" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/kinyanjuiprince21/massage-website" target="_blank" rel="noreferrer" title="Click on the image">
                         <img src={Portfolio} alt="" />
                     </a>
                     <div className="name">
