@@ -44,7 +44,7 @@ function Book(){
             data[key] = value;
         });
 
-        emailjs.sendForm(serviceId, templateId, form.current, userId)
+        emailjs.sendForm(serviceId, templateId, data, userId)
             .then((result) => {
                 console.log(result.text);
                 swal.fire(
